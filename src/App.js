@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+
+// Requirements for the project
+// - Data array in a separate .js file
+//     Title, description, price, cover image, rating, review count, location, open spots
+// - Use .map() and props
+// - Style & polished
+// - Mobile designed
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
     </div>
   );
 }
