@@ -8,7 +8,6 @@ import Navbar from './components/Navbar';
 // - Style & polished
 // - Mobile designed
 
-
 function App() {
   return (
     <div>
