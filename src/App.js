@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
+import Footer from './components/Footer';
 
 // Requirements for the project
 // - Data array in a separate .js file
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Navbar />
       <Card />
+      <Footer />
     </div>
   );
 }
