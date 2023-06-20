@@ -4,8 +4,8 @@ import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
     return (
-        <div>
+        <footer>
             FOOTER
-        </div>
+        </footer>
     )
 }
