@@ -4,8 +4,8 @@ import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
     return (
-        <footer>
-            FOOTER
+        <footer className='foot--text'>
+            React.js learning tool - built by N. VanArendonk
         </footer>
     )
 }
