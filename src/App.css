@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+
 .main--app {
   background-color: #0E2954;
   width: 100%;
@@ -6,6 +13,20 @@
 
 nav {
   background-color: #1F6E8C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.nav--title {
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: -0.075em;
+}
+
+.nav--logo {
+  height: 2em;
 }
 
 footer {
