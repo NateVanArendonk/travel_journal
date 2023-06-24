@@ -11,6 +11,7 @@ html {
   height: 100%;
 }
 
+/* Nav */
 nav {
   background-color: #1F6E8C;
   display: flex;
@@ -29,6 +30,7 @@ nav {
   height: 2em;
 }
 
+/* Footer */
 footer {
   background-color: #1F6E8C;
   display: flex;
@@ -42,3 +44,15 @@ footer {
       line-height: 1em;
       letter-spacing: -0.075em;
 }
+
+/* CARD */
+.card {
+  display: flex;
+  flex-direction: row;
+  padding: 2em 0;
+}
+
+.card--img {
+
+}
+
