@@ -2,6 +2,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import Footer from './components/Footer';
+import Data from "./data"
+
 
 // Requirements for the project
 // - Data array in a separate .js file
@@ -11,10 +13,21 @@ import Footer from './components/Footer';
 // - Mobile designed
 
 function App() {
+  const cards = Data.map(item => {
+      return (
+          <Card
+              key={item.id}
+              item={item}
+          />
+      )
+  })  
+
+  console.log(cards)
+
   return (
     <div className='main--app'>
       <Navbar />
-      <Card />
+      {cards}
       <Footer />
     </div>
   );
