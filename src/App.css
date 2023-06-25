@@ -73,5 +73,18 @@ footer {
 
 .card--dot {
   color: #84A7A1;
-  margin: 0 2em;
+}
+
+.card--info {
+  margin: 0 0 0 2em;
+}
+
+.card--location {
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.card--location-url {
+  font-size: 12px;
 }
