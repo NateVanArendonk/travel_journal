@@ -1,7 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+
 export default function Card(props) {
+
     return (
         <div className="card">
             <div className="card--img-box">
@@ -20,6 +22,7 @@ export default function Card(props) {
                     {props.item.startDate} - {props.item.endDate}
                 </p>
                 <p className="card--description">{props.item.description}</p>
+            {props.item.key === 1 || props.item.key === 2 ? <hr></hr> : null}
             </div>
         </div>
     )
