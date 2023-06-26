@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Card(props) {
+    const shouldRenderHr = props.item.key === 1 || props.item.key === 2;
 
     return (
+        <div>
         <div className="card">
             <div className="card--img-box">
                 <img className="card--img" src={props.item.imageUrl}></img>
@@ -22,8 +24,10 @@ export default function Card(props) {
                     {props.item.startDate} - {props.item.endDate}
                 </p>
                 <p className="card--description">{props.item.description}</p>
-            {props.item.key === 1 || props.item.key === 2 ? <hr></hr> : null}
             </div>
+
+        </div>
+            {shouldRenderHr && <hr className="break--line"></hr>}
         </div>
     )
 }
